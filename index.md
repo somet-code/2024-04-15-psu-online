@@ -146,7 +146,7 @@ address.
 {% elsif online == "true_private" %}
 <p id="where">
   <strong>Where:</strong> This training will take place online.
-  The instructors will provide you with the information you will need to connect to this meeting.
+  The organizers will provide you with the information you will need to connect to this meeting.
 </p>
 {% endif %}
 
@@ -222,7 +222,7 @@ Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
   <strong>Contact:</strong>
-  Please email
+  Please email Briana Ezray Wham
   {% if page.email %}
   {% for email in page.email %}
   {% if forloop.last and page.email.size > 1 %}
